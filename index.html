@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FlexBox Nav</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="app-wrap">
+    
+    <header class="app-header">
+      <a href="#" class="button">
+        <i class="fa fa-arrow-left"></i>
+        Back   
+      </a>
+       <h1>FlexBox App Layouts</h1>
+       <a href="#" class="button">
+         <i class="fa fa-cog"></i>
+       </a>
+    </header>
+ <div class="content">
+  <img src="http://lorempixel.com/1000/600/abstract" >
+   <p>Las graves dificultades económicas por las que pasaba el país obligaron a Juárez a 
+     suspender el pago de la deuda externa. La medida motivó la intervención armada del Reino Unido,
+      España y Francia en 1861 y sumió de nuevo al país en una situación de guerra.
+    </p>
+      <p> Las promesas de Juárez determinaron la retirada de las dos primeras potencias, pero Francia, 
+    en complicidad con los conservadores, invadió México en 1863, y en 1864, tras ocupar la capital, 
+    acabó por imponer al archiduque Maximiliano de Austria como emperador de México.
+  </p>
+  
+  Con el país bajo grave crisis económica fue reelegido por séptima vez en agosto de 1867. Juárez 
+  restauró la República federal y dio vigencia a las leyes de Reforma.
+ <p> Por otra parte, el sistema constitucional, que se había impuesto tras grandes luchas contra las poderosas
+    fuerzas de la reacción, comenzaba a desacreditarse ante las acusaciones de fraude electoral.
+  </p>
+  <p> Unido a ello, el presidente inició impopulares reformas con objeto de acumular en sus manos un 
+  mayor poder ejecutivo.</p>
+  <p>Este hecho y el temor a que buscara perpetuarse en el cargo motivaron la reacción dentro de su propio
+     partido. Porfirio Díaz, cuyo nombre resume por sí mismo el siguiente capítulo de la historia de México,
+      se pasó a la oposición tras haberse destacado como victorioso militar en la guerra contra Maximiliano, 
+      y en 1871.
+    </p>
+    <p>A pesar de las dificultades económicas, de la hostilidad del Congreso y de numerosos pronunciamientos,
+       el 1 de diciembre de 1871 Juárez asumía nuevamente la presidencia ante el Congreso de los diputados, y
+        allí reiteraba su fe en la legalidad con su habitual energía.
+     </p>
+  <p>Pese a que Juárez sobrevivió también la última represión de sus enemigos políticos, frenar el levantamiento
+     constituyó su último acto público.
+  </p>
+  <p>Tras continuas disfunciones cardíacas Benito Juárez murió el 18 de julio de 1872. El Congreso lo declaró 
+    Benemérito de la Patria y de las Américas.
+  </p>
+
+  </div>
+  <div class="icon-bar">
+      <a href="#">
+        <i class="fa fa-bell"></i>
+        HOme
+      </a>
+      <a href="#">
+        <i class="fa fa-bell"></i>
+        Notifications
+      </a>
+      <a href="#">
+        <i class="fa fa-envelope"></i>
+        Messages
+      </a>
+      <a href="#">
+        <i class="fa fa-user"></i>
+        Me
+      </a>
+  </div>
+</body>
+
+    <footer>
+      <p>&copy; M@nu3l</p>
+    </footer>
+
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    
+    $(function() {
+      $('.toggleNav').on('click',function() {
+        $('.flex-nav ul').toggleClass('open');
+      });
+    });
+
+  </script>
+
+</html>
